@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<autofac defaultAssembly="AutofacContainer">
+  <components name="0">
+    <type>AutofacContainer.DBReader, AutofacContainer</type>
+    <services name="0" type="AutofacContainer.IReader" />
+  </components>
+  <components name="1">
+    <type>AutofacContainer.ServiceWriter, AutofacContainer</type>
+    <services name="0" type="AutofacContainer.IWriter" />
+  </components>
+  <components name="2">
+    <type>AutofacContainer.Service, AutofacContainer</type>
+    <services name="0" type="AutofacContainer.Service" />
+    <autoActivate>true</autoActivate>
+  </components>
+</autofac>

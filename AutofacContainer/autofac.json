@@ -1,0 +1,32 @@
+﻿{
+  "defaultAssembly": "AutofacContainer",
+  "components": [
+    {
+      "type": "AutofacContainer.FileReader, AutofacContainer",
+      "services": [
+        {
+          "type": "AutofacContainer.IReader"
+        }
+
+      ],
+      "autoActivate": true
+    },
+    {
+      "type": "AutofacContainer.FileWriter, AutofacContainer",
+      "services": [
+        {
+          "type": "AutofacContainer.IWriter"
+        }
+      ]
+    },
+    {
+      "type": "AutofacContainer.Service, AutofacContainer",
+      "services": [
+        {
+          "type": "AutofacContainer.Service"
+        }
+      ],
+      "autoActivate": true
+    }
+  ]
+}
